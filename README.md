@@ -6,4 +6,8 @@ Temat na forum: http://forum.pasja-informatyki.pl/165441
 
 ---
 
-Ten branch zawiera oryginalny, niemodyfikowany kod odcinka. Na pozostałych branchach znajdują się odpowiednie poprawki.
+### Zmiany
+#### HTML
+(jeszcze nic)
+#### JS
+(jeszcze nic)
