@@ -30,3 +30,5 @@ function zmienslajd()
 	timer1 = setTimeout("zmienslajd()", 5000);
 	timer2 = setTimeout("schowaj()", 4500);
 }
+
+zmienslajd();
