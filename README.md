@@ -8,7 +8,8 @@ Temat na forum: http://forum.pasja-informatyki.pl/165441
 
 ### Zmiany
 #### HTML
-(jeszcze nic)
+- Usunięto nadmiarowe tagi `<html>` typu `<html lang="pl"><html>`
+
 #### JS
 - Przeniesiono skrypty do stosownych plików `.js`
 
