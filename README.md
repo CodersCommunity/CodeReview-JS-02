@@ -10,4 +10,6 @@ Temat na forum: http://forum.pasja-informatyki.pl/165441
 #### HTML
 (jeszcze nic)
 #### JS
-(jeszcze nic)
+- Przeniesiono skrypty do stosownych plików `.js`
+#### CSS
+- Przeniesiono style do stosownych plików `.css`
