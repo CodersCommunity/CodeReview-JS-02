@@ -4,3 +4,23 @@ body
 	font-size: 24px;
 	color: white;
 }
+
+.slider-list
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	counter-reset: slider-list-counter;
+}
+
+.slider-list > *
+{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.slider-list > *::before
+{
+	counter-increment: slider-list-counter;
+	content: "[ " counter(slider-list-counter) " ]";
+}
