@@ -1,0 +1,40 @@
+body {
+  background-color: #222222;
+  font-size: 24px;
+  color: white;
+}
+
+.slider {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slide.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav__link {
+  color: #fff;
+  counter-increment: slider-list-counter;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:after {
+	content: "[ " counter(slider-list-counter) " ]";
+}
