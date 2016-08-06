@@ -37,7 +37,12 @@
   slideSources.forEach(source => addSlide(source));
 
   setTimeout(() => {
-    const randomSlideIndex = Math.floor(Math.random() * slides.length);
-    setSlide(randomSlideIndex);
+    if (document.location.hash !== '') {
+      const locationSlide = Number(document.location.hash.substr(1));
+      setSlide(locationSlide);
+    } else {
+      const randomSlideIndex = Math.floor(Math.random() * slides.length);
+      setSlide(randomSlideIndex);
+    }
   }, 500);
 }
